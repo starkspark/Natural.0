@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Natural.0</title>
+
+
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Rozha+One" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Natural.O</h1>
+
+        <div id="socialmedia">
+            <img src="pinterest.png" width=24>
+            <img src="twitter.png" width=24>
+            <img src="facebook.png" width=24>
+            <img src="instagram.png" width=24>
+            <img src="youtube.svg" width=24>
+        </div>
+
+    </div>
+
+    <div id="carousel">
+        <img src="yara.png" width=100%>
+    </div>
+
+    <div id="personalize">
+        <h2>Personalize Your Articles</h2>
+
+        <div id="personalizeSection">
+            <div id="hairType">
+                <span style="background-color: #EE9191">I would describe my hair type as...</span>
+            </div>
+
+            <form action="http://www.davioure.tumblr.com/profile.php">
+                <div id="dropdown"></div>
+                <select name="curltypes">
+                    <option value="3A">3A</option>
+                    <option value="3B">3B</option>
+                    <option value="3C">3C</option>
+                    <option value="4A">4A</option>
+                    <option value="4B">4B</option>
+                    <option value="4C">4C</option>
+                </select>
+            </form>
+
+            <div id="selection"></div>
+
+            <div id="curate">
+                <button type="button">Curate my articles</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="top3arts">
+        <div class="category1">
+            <h4>Products</h4>
+        </div>
+        
+        <div class="category2">
+            <h4>Products</h4>
+        </div>
+        
+        <div class="category3">
+            <h4>Products</h4>
+        </div>
+        
+        <div class="top1">
+            <img src="hijabs.jpg">
+            <div class="title">
+                <h3>Hijabs Made With Your Skintone in Mind</h3>
+            </div>
+        </div>
+
+        <div class="top1">
+            <img src="slay.jpg">
+            <div class="title">
+                <h3>Oily Skin? Find your New Care Routine Here</h3>
+            </div>
+        </div>
+        
+        <div class="top1">
+            <img src="cdpumps.jpg">
+            <div class="title">
+                <h3>Tips to Make Your Twist-Out Last Longer</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div id="starredArticle">
+        <img src="vacation.jpg" width="400px">
+        <div id="starredArticleTitle">
+            <h2>How to Make the Most Out of Your Wash Days</h2>
+        </div>
+    </div>
+    
+    <div id="top3arts">
+        <div class="category1">
+            <h4>Products</h4>
+        </div>
+        
+        <div class="category2">
+            <h4>Products</h4>
+        </div>
+        
+        <div class="category3">
+            <h4>Products</h4>
+        </div>
+        
+        <div class="top1">
+            <img src="hijabs.jpg">
+            <div class="title">
+                <h3>Hijabs Made With Your Skintone in Mind</h3>
+            </div>
+        </div>
+
+        <div class="top1">
+            <img src="slay.jpg">
+            <div class="title">
+                <h3>Oily Skin? Find your New Care Routine Here</h3>
+            </div>
+        </div>
+        
+        <div class="top1">
+            <img src="cdpumps.jpg">
+            <div class="title">
+                <h3>Tips to Make Your Twist-Out Last Longer</h3>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="title"></div>
+
+    <script type="text/javascript">
+        (function() {
+
+            var img = document.getElementById('top1').firstChild;
+            img.onload = function() {
+                if (img.height > img.width) {
+                    img.height = '100%';
+                    img.width = 'auto';
+                }
+            };
+
+        }());
+
+    </script>
+</body>
+
+</html>
